@@ -29,7 +29,7 @@ module OmniAuth
       end
 
       def raw_info
-        @raw_info ||= access_token.get('/auth/getUserData?attribute=email,addressbook&f=json').parsed
+        @raw_info ||= access_token.get('/auth/getUserData?scope=email,addressbook&f=json').parsed
       end
     end
   end
