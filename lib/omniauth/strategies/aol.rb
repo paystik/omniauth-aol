@@ -7,7 +7,7 @@ module OmniAuth
 
       option :client_options, {
         :site => 'https://api.screenname.aol.com',
-        :authorize_url => 'https://api.screenname.aol.com/auth/authorize&scope=addressbook,email',
+        :authorize_url => 'https://api.screenname.aol.com/auth/authorize',
         :token_url => 'https://api.screenname.aol.com/auth/access_token',
       }
 
